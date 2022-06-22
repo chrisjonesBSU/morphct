@@ -86,7 +86,7 @@ class System():  # pragma: no cover
             os.makedirs(outpath)
         self.outpath = outpath
         self._chromophores = []
-        self._carrier_data = None
+        self.carrier_data = None
         self._comp = None
         self.qcc_pairs = None
         self._dinds = []
@@ -97,7 +97,6 @@ class System():  # pragma: no cover
         """Return the chromophores in the system."""
         return self._chromophores
 
-    @property
     def carrier_data(self):
         """Return the carrier data for data inspecting purposes"""
         return self._carrier_data
@@ -128,7 +127,7 @@ class System():  # pragma: no cover
                 )
             )
         if species == "acceptor":
-            self._ainds += indices
+            self._ainds = indices
         else:
             self._dinds += indices
 
