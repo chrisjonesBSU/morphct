@@ -595,7 +595,7 @@ def run_kmc(
     seed=42,
     combine=True,
     carrier_kwargs={},
-    verbose=0,
+    verbose=1,
     ): # pragma: no cover
     """Run KMC simulation using multiprocessing.
 
