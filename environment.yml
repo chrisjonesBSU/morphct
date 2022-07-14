@@ -1,4 +1,4 @@
-name: morphct
+name: morphct-dev
 channels:
 - conda-forge
 - pyscf
@@ -16,7 +16,7 @@ dependencies:
 - openbabel=3.1.1
 - pip=21.0.1
 - pyscf=1.7.6
-- python=3.7
+- python=3.8
 - scipy=1.7
 - signac=1.6.0      
 - signac-flow=0.13.0
