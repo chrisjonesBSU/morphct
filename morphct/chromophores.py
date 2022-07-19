@@ -349,6 +349,13 @@ conversion_dict = {
     "C10": ele.element_from_symbol("C"),
 }
 
+opls_dict = {
+    "opls_145": ele.element_from_symbol("C"),
+    "opls_146": ele.element_from_symbol("H"),
+    "opls_202": ele.element_from_symbol("S"),
+    "opls_200": ele.element_from_symbol("S"),
+    "opls_204": ele.element_from_symbol("H"),
+}
 
 amber_dict = {
     "c": ele.element_from_symbol("C"),
