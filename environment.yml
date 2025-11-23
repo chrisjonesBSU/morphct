@@ -10,12 +10,12 @@ dependencies:
 - gsd
 - h5py<3.0
 - hdf5
-- libcint=4
+- libcint=6.1
 - matplotlib
 - numpy
 - openbabel
 - pip
-- pyscf<2.0
+- pyscf=2.11
 - python=3.7
 - scipy
 - pytest
