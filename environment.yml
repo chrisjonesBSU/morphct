@@ -12,6 +12,8 @@ dependencies:
 - hdf5
 - libcint=4
 - matplotlib
+- webcolors=1.13
+- jupyter
 - numpy
 - openbabel
 - pip
